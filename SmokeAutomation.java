@@ -188,6 +188,11 @@ public class SmokeAutomation{
 		driver.findElement(By.cssSelector("li>a.btn.btn-default.button.button-small")).click();
 	}
 	
+	@Test(priority=25)
+	public void verifyBackToButtonClickOnTest() {
+		driver.findElement(By.cssSelector("a[title = 'Recover your forgotten password']")).click();
+		driver.findElement(By.cssSelector("li>a.btn.btn-default.button.button-small")).click();
+	}
 	@AfterMethod
 	public void CloseBrowser()
 	{
