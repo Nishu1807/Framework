@@ -5,7 +5,7 @@ import java.util.concurrent.TimeUnit;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
+// Test class
 public class SmokeTest {
 	@Parameters("BrowserName")
 	@Test
